@@ -14,7 +14,7 @@ const Form = () => {
           type="text"
           placeholder="Email or Phone no."
         />
-        <button className="bg-purple-500 text-white py-2 px-4 rounded-md hover:bg-purple-600 hover:cursor-pointer font-bold active:bg-white active:text-purple-600 active:border-2 border-purple-500">
+        <button className="bg-purple-500 text-white py-1 px-4 rounded-md hover:bg-purple-600 hover:cursor-pointer font-bold active:bg-white active:text-purple-600 border-2 border-purple-500">
           ADD
         </button>
       </form>
