@@ -5,12 +5,12 @@ const Form = () => {
     <div className=" flex justify-center mt-5">
       <form className="flex items-center space-x-3">
         <input
-          className="border-2 hover:border-purple-400 px-3 h-10 rounded-md "
+          className="border-2 hover:border-purple-400  focus:outline-purple-400 px-3 h-10 rounded-md text-gray-700 text-sm"
           type="text"
           placeholder="Name"
         />
         <input
-          className="border-2 hover:border-purple-400 px-3 h-10 rounded-md "
+          className="border-2 hover:border-purple-400 focus:outline-purple-400 px-3 h-10 rounded-md text-5m text-gray-700"
           type="text"
           placeholder="Email or Phone no."
         />
