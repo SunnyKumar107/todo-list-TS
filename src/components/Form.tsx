@@ -20,9 +20,12 @@ const Form = (props: FormProps) => {
   };
 
   const clickHandler = () => {
-    props.handleClick(newData);
-    setName("");
-    setEmail("");
+    switch (name || email) {
+      case "":
+        return alert("Input field is blank!");
+      default:
+        return props.handleClick(newData), setName(""), setEmail("");
+    }
   };
 
   return (
